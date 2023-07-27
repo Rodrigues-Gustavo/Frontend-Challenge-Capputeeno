@@ -1,5 +1,9 @@
+'use client'
+
+import styles from './page.module.css'
+
 export default function Home() {
   return (
-    <h1>Capputeeno</h1>
+    <main className={styles.main}></main>
   )
 }
